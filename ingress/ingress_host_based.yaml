@@ -24,3 +24,13 @@ spec:
             name: nginx-am-svc
             port:
               number: 80
+  - host: udo.test.com
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: nginx-udo-svc
+            port:
+              number: 80            
