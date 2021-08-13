@@ -9,7 +9,7 @@ k3d is a wrapper of k3s lightweight k8s distribution. We can spin up the cluster
 
 `wget -q -O - https://raw.githubusercontent.com/rancher/k3d/main/install.sh | bash`
 
-For specific verson visist: https://k3d.io/
+For specific version and more details visit: https://k3d.io/
 
 <h3>Create a cluster with LB and Volume</h3>
 
