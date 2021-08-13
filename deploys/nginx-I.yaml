@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    run: nginx
+  name: nginx-deploy-1
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      run: nginx-I
+  template:
+    metadata:
+      labels:
+        run: nginx-I
+    spec:
+      containers:
+      - image: nginx
+        name: nginx
+        volumeMounts:
+        - mountPath: /usr/share/nginx/html
+          name: webdata
+      volumes:
+      - name: webdata
+        hostPath:
+          path: /pod_data/dir1

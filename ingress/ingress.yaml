@@ -1,0 +1,19 @@
+kind: Ingress
+apiVersion: extensions/v1beta1
+metadata:
+  name: nginx
+  namespace: default
+
+spec:
+  rules:
+    - host: test.com
+      http:
+        paths:
+          - path: /
+            backend:
+              serviceName: nginx-i-svc
+              servicePort: 80
+          - path: /am
+            backend:
+              serviceName: nginx-am-svc
+              servicePort: 80
