@@ -5,6 +5,9 @@ k3d is a wrapper of k3s lightweight k8s distribution. We can spin up the cluster
 
 `git clone https://github.com/udhayaprabakaran/k3d-demo.git`
 
+<h3>Install kubectl</h3>
+https://kubernetes.io/docs/tasks/tools/
+
 <h3>Install K3d (Pre-Requisite: Docker)</h3>
 
 `wget -q -O - https://raw.githubusercontent.com/rancher/k3d/main/install.sh | bash`
