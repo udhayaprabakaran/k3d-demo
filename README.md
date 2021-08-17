@@ -35,7 +35,7 @@ Ex: test.localhost, dev.localhost which points to localhost only.
 `cd ingress`
 `kubectl create -f ingress_host_based.yaml`
 
-<h3> Access the apps <h3>
+<h3> Access the apps </h3>
 
 `curl emoji.localhost:8080` or `lynx  emoji.localhost:8080`
 `curl happy.emoji.localhost:8080` or `lynx  happy.emoji.localhost:8080`
