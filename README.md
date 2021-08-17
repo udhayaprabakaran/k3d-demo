@@ -22,17 +22,17 @@ Below will create a single master and 2 worker node cluster with LB for master a
 
 <h3> Deploying Apps and Respective services with ClusterIP exposed inside the cluster on port 80 </h3>
 
-`cd deploys`
+`cd deploys` <br>
 `kubectl create -f nginx-emoji.yaml -f nginx-happy.yaml -f nginx-sad.yaml -f nginx-emoji-svc.yaml -f nginx-happy-svc.yaml -f nginx-sad-svc.yaml`
 
 <h3> Install libnss-myhostname </h3>
-<p>It is used for using localhost as different domain names without adding it to the /etc/hosts
-Ex: test.localhost, dev.localhost which points to localhost only.</p><br>
-`sudo apt-get install libnss-myhostname`
+It is used for using localhost as different domain names without adding it to the /etc/hosts
+Ex: test.localhost, dev.localhost which points to localhost only.</br>
+`apt-get install libnss-myhostname`
 
 <h3> Creating Ingress resource to access the apps from outside </h3>
 
-`cd ingress`
+`cd ingress` <br>
 `kubectl create -f ingress_host_based.yaml`
 
 <h3> Access the apps </h3>
