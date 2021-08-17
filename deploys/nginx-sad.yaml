@@ -22,5 +22,5 @@ spec:
           name: webdata
       volumes:
       - name: webdata
-      hostPath:
-        path: /pod_data/dir3
+        hostPath:
+          path: /pod_data/dir3
