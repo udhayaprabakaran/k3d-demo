@@ -13,20 +13,20 @@ spec:
         pathType: Prefix
         backend:
           service:
-            name: nginx-i-svc
+            name: nginx-emoji-svc
             port:
               number: 80
-      - path: /am
+      - path: /happy
         pathType: Prefix
         backend:
           service:
-            name: nginx-am-svc
+            name: nginx-happy-svc
             port:
               number: 80
-      - path: /udo
+      - path: /sad
         pathType: Prefix
         backend:
           service:
-            name: nginx-udo-svc
+            name: nginx-sad-svc
             port:
               number: 80
