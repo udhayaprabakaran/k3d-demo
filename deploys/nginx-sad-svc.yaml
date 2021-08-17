@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: nginx-i-svc
+  name: nginx-sad-svc
 spec:
   ports:
     - targetPort: 80
       port: 80
   selector:
-      run: nginx-I
+      run: nginx-sad

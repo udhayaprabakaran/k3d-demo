@@ -1,11 +1,11 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: volume-test-2
+  name: volume-test
   namespace: default
 spec:
   containers:
-  - name: volume-test-2
+  - name: volume-test
     image: nginx:stable-alpine
     imagePullPolicy: IfNotPresent
     volumeMounts:
@@ -16,4 +16,4 @@ spec:
   volumes:
   - name: volv
     persistentVolumeClaim:
-      claimName: local-path-pvc-2
+      claimName: local-path-pvc

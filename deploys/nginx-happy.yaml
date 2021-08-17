@@ -3,16 +3,16 @@ kind: Deployment
 metadata:
   labels:
     run: nginx
-  name: nginx-deploy-3
+  name: nginx-deploy-2
 spec:
   replicas: 1
   selector:
     matchLabels:
-      run: nginx-udo
+      run: nginx-happy
   template:
     metadata:
       labels:
-        run: nginx-udo
+        run: nginx-happy
     spec:
       containers:
       - image: nginx
@@ -23,4 +23,4 @@ spec:
       volumes:
       - name: webdata
       hostPath:
-        path: /pod_data/dir3
+        path: /pod_data/dir2

@@ -4,7 +4,7 @@ metadata:
   name: nginx
 spec:
   rules:
-  - host: test.com
+  - host: emoji.localhost
     http:
       paths:
       - path: /
@@ -14,7 +14,7 @@ spec:
             name: nginx-i-svc
             port:
               number: 80
-  - host: am.test.com
+  - host: happy.emoji.localhost
     http:
       paths:
       - path: /
@@ -24,7 +24,7 @@ spec:
             name: nginx-am-svc
             port:
               number: 80
-  - host: udo.test.com
+  - host: sad.emoji.localhost
     http:
       paths:
       - path: /

@@ -8,11 +8,11 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      run: nginx-I
+      run: nginx-emoji
   template:
     metadata:
       labels:
-        run: nginx-I
+        run: nginx-emoji
     spec:
       containers:
       - image: nginx
