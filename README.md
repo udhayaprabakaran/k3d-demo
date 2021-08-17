@@ -26,8 +26,8 @@ Below will create a single master and 2 worker node cluster with LB for master a
 `kubectl create -f nginx-emoji.yaml -f nginx-happy.yaml -f nginx-sad.yaml -f nginx-emoji-svc.yaml -f nginx-happy-svc.yaml -f nginx-sad-svc.yaml`
 
 <h3> Install libnss-myhostname </h3>
-It is used for using localhost as different domain names without adding it to the /etc/hosts
-Ex: test.localhost, dev.localhost which points to localhost only.<br>
+<p>It is used for using localhost as different domain names without adding it to the /etc/hosts
+Ex: test.localhost, dev.localhost which points to localhost only.</p><br>
 `sudo apt-get install libnss-myhostname`
 
 <h3> Creating Ingress resource to access the apps from outside </h3>
