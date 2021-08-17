@@ -37,7 +37,7 @@ Ex: test.localhost, dev.localhost which points to localhost only.
 
 <h3> Access the apps </h3>
 
-`curl emoji.localhost:8080` or `lynx  emoji.localhost:8080`
-`curl happy.emoji.localhost:8080` or `lynx  happy.emoji.localhost:8080`
-`curl sad.emoji.localhost:8080` or `lynx  sad.emoji.localhost:8080`
+`curl emoji.localhost:8080` or `lynx  emoji.localhost:8080` <br>
+`curl happy.emoji.localhost:8080` or `lynx  happy.emoji.localhost:8080`<br>
+`curl sad.emoji.localhost:8080` or `lynx  sad.emoji.localhost:8080`<br>
  
