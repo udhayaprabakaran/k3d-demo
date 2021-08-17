@@ -40,4 +40,12 @@ Ex: test.localhost, dev.localhost which points to localhost only.
 `curl emoji.localhost:8080` or `lynx  emoji.localhost:8080` <br>
 `curl happy.emoji.localhost:8080` or `lynx  happy.emoji.localhost:8080`<br>
 `curl sad.emoji.localhost:8080` or `lynx  sad.emoji.localhost:8080`<br>
- 
+
+Emojis :)
+![image](https://user-images.githubusercontent.com/13021094/129744068-0198c6fd-3115-4a5d-87bc-9361882d72af.png)
+
+Happy Emojis :D
+![image](https://user-images.githubusercontent.com/13021094/129744194-ce1594fa-a6eb-4e3f-88c7-fd13a85bea58.png)
+
+Sad Emojis :(
+![image](https://user-images.githubusercontent.com/13021094/129744267-5abc65f9-fe76-4a42-94ef-a2542c8843a2.png)
