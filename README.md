@@ -60,7 +60,7 @@ Sad Emojis :(
 
 The above command will create a another container called k3d-tools which saves and wraps the image into tarball from local and push it to the nodes image volumes and run ctr import inside the container.
 
-Create Pod, Service, Ingress
+Create Pod, Service, Ingress<br>
 `kubectl run flaskapp --image=sample-python:1.0`<br>
 `cd ..`<br>
 `kubectl create -f deploys/flask-app-svc.yaml -f ingress/flask-app-ing.yaml`<br>
