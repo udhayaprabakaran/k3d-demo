@@ -54,7 +54,7 @@ Sad Emojis :(
 <h1>Building Custome image and loading the image layer caches inside the cluster</h1>
 
 `cd sample-python` <br>
-`docker build . -t sample-app:1.0`<br>
+`docker build . -t sample-python:1.0`<br>
 
 `k3d image import sample-python:1.0`<br>
 
