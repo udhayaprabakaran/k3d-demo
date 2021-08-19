@@ -49,3 +49,13 @@ Happy Emojis :D
 
 Sad Emojis :(
 ![image](https://user-images.githubusercontent.com/13021094/129744267-5abc65f9-fe76-4a42-94ef-a2542c8843a2.png)
+
+
+<h1>Building Custome image and loading the image layer caches inside the cluster</h1>
+
+`cd sample-python` <br>
+`docker build . -t sample-app:1.0`<br>
+
+`k3d image import sample-python:1.0`<br>
+
+The above command will create a another container called k3d-tools which saves and wraps the image into tarball from local and push it to the nodes image volumes and run ctr import inside the container.
