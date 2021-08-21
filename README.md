@@ -30,7 +30,7 @@ It is used for using localhost as different domain names without adding it to th
 Ex: test.localhost, dev.localhost which points to localhost only.</br>
 `apt-get install libnss-myhostname`
 
-<h3> Creating Ingress resource to access the apps from outside </h3>
+<h3> Creating Ingress resource to route to different services based on hostname </h3>
 
 `cd ingress` <br>
 `kubectl create -f ingress_host_based.yaml`
