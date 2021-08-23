@@ -18,7 +18,7 @@ For specific version and more details visit: https://k3d.io/
 
 Below will create a single master and 2 worker node cluster with LB for master and hosts local volume inside the all the nodes (containers)
 
-`k3d cluster create --agents=2 -p 8081:80@loadbalancer --volume <hostpath>:/pod_data@agent[0] --volume <full path>/kube_vol:/pod_data@all`
+`k3d cluster create --agents=2 -p 8081:80@loadbalancer --volume <full path>/kube_vol:/pod_data@all`
 
 <h3> Deploying Apps and Respective services with ClusterIP exposed inside the cluster on port 80 </h3>
 
